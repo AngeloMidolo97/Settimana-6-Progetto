@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#background {
+    background-image: url('../img/background.jpg');
+    background-position-y: center;
+    background-position-x: left;
+    height: 70vh;
+}
+
+.navbar{
+    background-color: $purple;
+    position: sticky;
+    top: 0;
+    [class^="bi-"]{
+        font-size: 20px;
+    }
+}
+
+.miaIcon {
+    font-size: 40px !important;
+}
+
+.mioContainer {
+    background-color: #f5f5f5 !important;
+}
+
+.container {
+    button{
+        background-color: $purple;
+        border: none;
+    }
+}
+
+.mioFooter {
+    background-color: $purple;
+}
